@@ -177,17 +177,22 @@ export default function Profile() {
           </p>
         </div>
       )}
-      <div className="grid grid-cols-4 gap-3 divide-x p-6 bg-card/50 mt-3">
-        {user_stats.map((stat, i) => (
-          <div key={i} className="relative px-5 py-2  overflow-hidden ">
-            <p className="text-3xl font-semibold tracking-tight relative z-10">
-              {stat.value}
-            </p>
-            <p className="text-muted-foreground text-xs mt-2 uppercase tracking-widest relative z-10">
-              {stat.label}
-            </p>
-          </div>
-        ))}
+      <div className="lg:p-6 mt-3 bg-card">
+        <div className="bg-border grid grid-cols-2 lg:grid-cols-4 gap-px">
+          {user_stats.map((stat, i) => (
+            <div
+              key={i}
+              className="relative lg:px-6 lg:py-2 p-4  overflow-hidden bg-card "
+            >
+              <p className="lg:text-3xl text-2xl font-semibold tracking-tight relative z-10">
+                {stat.value}
+              </p>
+              <p className="text-muted-foreground text-xs mt-2 uppercase tracking-widest relative z-10">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
       <section className="p-6">
         <p className="text-muted-foreground text-sm font-medium uppercase tracking-widest mb-4">

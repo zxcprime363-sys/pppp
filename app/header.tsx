@@ -18,9 +18,11 @@ import { useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import DynamicBreadcrumb from "@/components/ui/breadcrumb-dynamic";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { useSession } from "@/hooks/user/session";
 export default function Header() {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
+  const { user } = useSession();
   const [firstTyped, setFirstTyped] = useState(false); // track first character
   const router = useRouter();
   const isMobile = useIsMobile();
@@ -81,7 +83,9 @@ export default function Header() {
         )}
         <div className="h-4 w-px bg-muted"></div>
         <Avatar className="size-9">
-          <AvatarImage src="https://github.com/shadcn.png" />
+          <AvatarImage
+            src={user?.avatar_url || "https://github.com/shadcn.png"}
+          />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </div>
