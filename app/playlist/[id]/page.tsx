@@ -31,6 +31,8 @@ import { TrackQueue } from "@/hooks/types";
 import SortableSong from "@/app/dnd/draggable";
 import { useEffect, useState } from "react";
 import { IconArrowLeft, IconMusicOff } from "@tabler/icons-react";
+import HeaderRow from "@/components/ui/header-row";
+import DetailsSkeleton from "@/components/ui/DesignSkeleton";
 export default function PlaylistPage() {
   const router = useRouter();
   const params = useParams();
@@ -79,18 +81,7 @@ export default function PlaylistPage() {
   });
 
   if (isLoading) {
-    return (
-      <div className="flex flex-col items-center justify-center h-full gap-2 ">
-        <h1>Loading please wait</h1>
-        <LineWobble
-          size="150"
-          stroke="5"
-          bgOpacity="0.1"
-          speed="1.75"
-          color="white"
-        />
-      </div>
-    );
+    return <DetailsSkeleton />;
   }
   if (!playlist)
     return (
@@ -208,13 +199,7 @@ export default function PlaylistPage() {
         </div>
       </div>
       <div className="mt-4 space-y-2">
-        <div className="grid grid-cols-[50px_50px_4fr_2fr_1fr_1fr] border-b border-zinc-800 pb-3 mb-4 text-muted-foreground text-sm py-2 px-4">
-          <div></div>
-          <div>#</div>
-          <div>Title</div>
-          <div>Quality</div>
-          <div className="flex justify-end">Duration</div>
-        </div>
+        <HeaderRow />
         {orderedTracks.length === 0 ? (
           <div className="grid place-items-center h-70">
             <div className="flex flex-col justify-center items-center">
