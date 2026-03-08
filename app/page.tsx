@@ -9,18 +9,24 @@ import { Edit, LogIn } from "lucide-react";
 import RecentlyPlayed from "./recently_played";
 import { Separator } from "@/components/ui/separator";
 import { motion } from "framer-motion";
+import Footer from "./footer";
 export default function Home() {
-  const { isLoggedIn } = useSession();
+  const { isLoggedIn, isLoading } = useSession();
   return (
     <div className="lg:p-4 p-2 space-y-10">
-      {!isLoggedIn && (
+      {!isLoggedIn && !isLoading && (
         <>
           <div className="relative overflow-hidden py-15">
             <div className="relative z-10 max-w-xl ">
               <p className="text-xs uppercase tracking-[0.3em] text-slate-400 font-semibold mb-3">
                 Music, Reimagined
               </p>
-              <h1 className="text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight text-white">
+              <h1
+                style={{
+                  textShadow: "1px 1px 1px rgba(0,0,0,0.2)",
+                }}
+                className="text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight text-white"
+              >
                 <motion.span
                   className="bg-linear-to-r from-[rgb(237,236,233)] via-[rgb(94,84,72)] to-[rgb(172,149,119)] bg-clip-text text-transparent"
                   style={{
@@ -30,7 +36,7 @@ export default function Home() {
                     backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
                   }}
                   transition={{
-                    duration: 15,
+                    duration: 10,
                     repeat: Infinity,
                     ease: "linear",
                   }}
@@ -93,6 +99,8 @@ export default function Home() {
       <RecentlyPlayed />
       <TopArtist />
       <AlbumAndSingles />
+
+      <Footer />
     </div>
   );
 }

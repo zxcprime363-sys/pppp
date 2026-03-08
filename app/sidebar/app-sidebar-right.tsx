@@ -73,7 +73,7 @@ export function SidebarRight({
     >
       <SidebarContent
         className={cn(
-          "bg-card rounded-xl",
+          "bg-background rounded-xl",
           "[&::-webkit-scrollbar]:w-2.5",
           "[&::-webkit-scrollbar-track]:bg-transparent",
           "[&::-webkit-scrollbar-thumb]:bg-white/20",
@@ -90,12 +90,12 @@ export function SidebarRight({
                 className=" w-full object-cover rounded-md aspect-square"
               />
             ) : (
-              <span className=" w-full object-cover rounded-md aspect-square flex justify-center items-center bg-card">
+              <span className=" w-full object-cover rounded-md aspect-square flex justify-center items-center bg-background">
                 <Music className="size-18 text-muted-foreground" />
               </span>
             )}
 
-            <div className="absolute inset-0 bg-linear-to-b from-transparent to-card"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-transparent to-background"></div>
           </div>
 
           <div className=" px-2 pb-4 border-b">

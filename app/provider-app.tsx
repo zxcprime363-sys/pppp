@@ -15,6 +15,7 @@ import { SupabaseTrack } from "@/hooks/user/playlist-tracks-id";
 import ColorThief from "color-thief-browser";
 import { Music } from "lucide-react";
 import AudioPlayer from "./audio_player";
+import { ScrollReset } from "./scroll-reset";
 export default function AppProvider({
   children,
 }: {
@@ -125,17 +126,7 @@ export default function AppProvider({
               "relative min-w-0 overflow-hidden max-h-[calc(100vh-4px)]",
             )}
           >
-            <div
-              className={cn(
-                "relative z-10 flex flex-col h-full overflow-y-auto",
-
-                "lg:[&::-webkit-scrollbar]:w-2.5",
-                "[&::-webkit-scrollbar-track]:bg-transparent",
-                "[&::-webkit-scrollbar-thumb]:bg-white/20",
-                "[&::-webkit-scrollbar-thumb]:rounded-xs",
-                "[&::-webkit-scrollbar-thumb]:hover:bg-white/40",
-              )}
-            >
+            <ScrollReset>
               <div
                 className="absolute inset-0 z-0 rounded-lg max-h-screen"
                 style={{
@@ -151,7 +142,7 @@ export default function AppProvider({
               <Header />
               <div className="relative flex-1 z-10">{children}</div>
               <AudioPlayer />
-            </div>
+            </ScrollReset>
           </SidebarInset>
           {!isMobile && currentTrackCover && <SidebarRight />}
           <DragOverlay dropAnimation={null}>
