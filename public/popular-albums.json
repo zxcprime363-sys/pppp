@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Silakbo",
+    "artist": "Cup of Joe",
+    "type": "ALBUM",
+    "id": 410570176,
+    "artistUri": "spotify:artist:61nn6nOoLWjVC1ER2qFAvN",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b27385a7fd707d00e5d255807add",
+    "colorDark": "#E00000",
+    "playable": true
+  },
+  {
+    "name": "Langit Mong Bughaw",
+    "artist": "December Avenue",
+    "type": "ALBUM",
+    "id": 274791136,
+    "artistUri": "spotify:artist:4qFxP3qN9GsnZDOkAE6x2m",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b273d24f561dcce1e3ad344d1597",
+    "colorDark": "#3070B8",
+    "playable": true
+  },
+  {
+    "name": "Ruby",
+    "artist": "JENNIE",
+    "type": "ALBUM",
+    "id": 421911994,
+    "artistUri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b273dcf27dec5e479b2e39c4c993",
+    "colorDark": "#C00808",
+    "playable": true
+  },
+  {
+    "name": "Nicole",
+    "artist": "NIKI",
+    "type": "ALBUM",
+    "id": 385111829,
+    "artistUri": "spotify:artist:2kxP07DLgs4xlWz8YHlvfh",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b273d3997a4c208ac08dafff374f",
+    "colorDark": "#A04840",
+    "playable": true
+  },
+
+  {
+    "name": "Simula at Wakas",
+    "artist": "SB19",
+    "type": "EP",
+    "id": 428793201,
+    "artistUri": "spotify:artist:3g7vYcdDXnqnDKYFwqXBJP",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b273bef7296cdc1eb37ff6af3945",
+    "colorDark": "#602020",
+    "playable": true
+  },
+  {
+    "name": "Lover",
+    "artist": "Taylor Swift",
+    "type": "ALBUM",
+    "id": 116125894,
+    "artistUri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+    "colorDark": "#877175",
+    "playable": true
+  },
+  {
+    "name": "Freudian",
+    "artist": "Daniel Caesar",
+    "type": "ALBUM",
+    "id": 420815620,
+    "artistUri": "spotify:artist:20wkVLutqVOYrc0kxFs7rA",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b2737aa8783ad8def37cc548a9cf",
+    "colorDark": "#697983",
+    "playable": true
+  },
+  {
+    "name": "eternal sunshine",
+    "artist": "Ariana Grande",
+    "type": "ALBUM",
+    "id": 349160292,
+    "artistUri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR",
+    "coverArt": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+    "colorDark": "#382000",
+    "playable": true
+  }
+]

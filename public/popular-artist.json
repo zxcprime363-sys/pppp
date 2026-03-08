@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Cup of Joe",
+    "id": 15168789,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb79c590d13042cecbac1705f3",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17879c590d13042cecbac1705f3",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517479c590d13042cecbac1705f3",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#083840"
+  },
+  {
+    "name": "Earl Agustin",
+    "id": 29699223,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc4637e7e5379e9132b921a33",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c4637e7e5379e9132b921a33",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c4637e7e5379e9132b921a33",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#502018"
+  },
+  {
+    "name": "NIKI",
+    "id": 3550866,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0654e511623cba4e0e9e2f0c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780654e511623cba4e0e9e2f0c",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740654e511623cba4e0e9e2f0c",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#7D7765"
+  },
+  {
+    "name": "Dionela",
+    "id": 16221981,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb50069ac992d74c5610ecb9cc",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17850069ac992d74c5610ecb9cc",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517450069ac992d74c5610ecb9cc",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#777777"
+  },
+  {
+    "name": "Ariana Grande",
+    "id": 4332277,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb6725802588d7dc1aba076ca5",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1786725802588d7dc1aba076ca5",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#4F7E87"
+  },
+  {
+    "name": "Taylor Swift",
+    "id": 3557299,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe2e8e7ff002a4afda1c7147e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e2e8e7ff002a4afda1c7147e",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#418369"
+  },
+  {
+    "name": "Arthur Nery",
+    "id": 10717772,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb544dbb35e54b81b9ecb42358",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178544dbb35e54b81b9ecb42358",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174544dbb35e54b81b9ecb42358",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#982820"
+  },
+  {
+    "name": "Maroon 5",
+    "id": 1565,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebf8349dfb619a7f842242de77",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178f8349dfb619a7f842242de77",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174f8349dfb619a7f842242de77",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#6B7884"
+  },
+  {
+    "name": "HELLMERRY",
+    "id": 23911402,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebeef39c13833db73e54f2192e",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178eef39c13833db73e54f2192e",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174eef39c13833db73e54f2192e",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#583028"
+  },
+  {
+    "name": "The Script",
+    "id": 3530277,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4a0b21cd87d8a8752fd32e94",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784a0b21cd87d8a8752fd32e94",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744a0b21cd87d8a8752fd32e94",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#584870"
+  },
+  {
+    "name": "Up Dharma Down",
+    "id": 3943653,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb0d9af87a78a52846b4706b28",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1780d9af87a78a52846b4706b28",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051740d9af87a78a52846b4706b28",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#A46A10"
+  },
+  {
+    "name": "Bruno Mars",
+    "id": 3658521,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc7688aad1bf03986934d7e26",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c7688aad1bf03986934d7e26",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#535353"
+  },
+  {
+    "name": "Justin Bieber",
+    "id": 3639248,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebaf20f7db5288bce9beede034",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178af20f7db5288bce9beede034",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#183848"
+  },
+  {
+    "name": "Ben&Ben",
+    "id": null,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb433dff4705592471b4aa1171",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178433dff4705592471b4aa1171",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174433dff4705592471b4aa1171",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#401818"
+  },
+  {
+    "name": "Rico Blanco",
+    "id": 3724992,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe10120ef9090cdf4eb086532",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e10120ef9090cdf4eb086532",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e10120ef9090cdf4eb086532",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#767685"
+  },
+  {
+    "name": "Amiel Sol",
+    "id": 18934603,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb93e76d16c993cd6e9ba0e47c",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f17893e76d16c993cd6e9ba0e47c",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000517493e76d16c993cd6e9ba0e47c",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#A9670F"
+  },
+  {
+    "name": "SZA",
+    "id": 5416271,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebfd0a9fb6c252a3ba44079acf",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178fd0a9fb6c252a3ba44079acf",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174fd0a9fb6c252a3ba44079acf",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#757C34"
+  },
+  {
+    "name": "TJ Monterde",
+    "id": 6328665,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb2598127d529b55dcb37d1428",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1782598127d529b55dcb37d1428",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051742598127d529b55dcb37d1428",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#6D7888"
+  },
+  {
+    "name": "Ed Sheeran",
+    "id": 3995478,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebd55c95ad400aed87da52daec",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178d55c95ad400aed87da52daec",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174d55c95ad400aed87da52daec",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#517AA3"
+  },
+  {
+    "name": "Billie Eilish",
+    "id": 7514330,
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4a21b4760d2ecb7b0dcdc8da",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f1784a21b4760d2ecb7b0dcdc8da",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da",
+        "height": 320,
+        "width": 320
+      }
+    ],
+    "colorDark": "#002038"
+  }
+]

@@ -1,0 +1,13 @@
+export const Instances = [
+  "https://eu-central.monochrome.tf",
+  "https://us-west.monochrome.tf",
+  "https://arran.monochrome.tf",
+  "https://api.monochrome.tf/",
+  "https://monochrome-api.samidy.com",
+  "https://triton.squid.wtf",
+  "https://wolf.qqdl.site",
+  "https://maus.qqdl.site",
+  "https://vogel.qqdl.site",
+  "https://hund.qqdl.site",
+  "https://tidal.kinoplus.online",
+];
