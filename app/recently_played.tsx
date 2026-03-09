@@ -4,9 +4,11 @@ import { useSession } from "@/hooks/user/session";
 import { useRecentlyPlayed } from "@/hooks/user/recently_played";
 import { Library, Lock } from "lucide-react";
 import Design1 from "@/components/ui/design-1";
+import HeaderRow from "@/components/ui/header-row";
+import { Design1Skeleton } from "@/components/ui/Design1Skeleton";
 
 export default function RecentlyPlayed() {
-  const { data } = useRecentlyPlayed();
+  const { data, isLoading } = useRecentlyPlayed();
   const history = data?.tracks ?? [];
   const { isLoggedIn } = useSession();
 
@@ -21,8 +23,12 @@ export default function RecentlyPlayed() {
           </Badge>
         )}
       </div>
-
-      {history.length === 0 ? (
+      {history.length !== 0 && <HeaderRow number={false} />}
+      {isLoading ? (
+        Array.from({ length: 3 }).map((_, i) => (
+          <Design1Skeleton key={i} number={false} />
+        ))
+      ) : history.length === 0 ? (
         <div className="flex items-center lg:h-40 gap-5 border border-dashed p-4 rounded-md">
           <div className="bg-card p-4 rounded-md">
             <Library className="size-10" />
