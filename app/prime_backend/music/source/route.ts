@@ -3,13 +3,13 @@ import axios from "axios";
 
 export async function GET(req: NextRequest) {
   const instances = [
-    "https://maus.qqdl.site",
-    "https://vogel.qqdl.site",
-    "https://katze.qqdl.site",
-    "https://hund.qqdl.site",
-    "https://arran.monochrome.tf",
     "https://triton.squid.wtf",
     "https://wolf.qqdl.site",
+    "https://arran.monochrome.tf",
+    "https://hund.qqdl.site",
+    "https://katze.qqdl.site",
+    "https://vogel.qqdl.site",
+    "https://maus.qqdl.site",
   ];
 
   const id = req.nextUrl.searchParams.get("id");
@@ -37,6 +37,10 @@ export async function GET(req: NextRequest) {
           Origin: cleanBase,
         },
       });
+      if (res.data?.data?.assetPresentation === "PREVIEW") {
+        console.warn(`${cleanBase} returned PREVIEW, skipping`);
+        continue;
+      }
 
       // Success → return immediately
       return NextResponse.json(res.data);
