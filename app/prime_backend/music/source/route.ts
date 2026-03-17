@@ -3,6 +3,7 @@ import axios from "axios";
 
 export async function GET(req: NextRequest) {
   const instances = [
+    "hifi-two.spotisaver.net",
     "https://triton.squid.wtf",
     "https://wolf.qqdl.site",
     "https://arran.monochrome.tf",
